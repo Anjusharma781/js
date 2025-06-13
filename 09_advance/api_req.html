@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vishali sharma </h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur labore eligendi deleniti sint, aut earum cupiditate perspiciatis iste architecto minus.
+    </p>
+</body>
+<script>
+     const reqUrl = "https://github.com/Anjusharma781/js"
+   const xhr = new XMLHttpRequest();
+   xhr. open('GET', reqUrl)
+   xhr.onreadystatechange = function(){
+    console.log(xhr.readyState);
+    if (xhr.readyState=== 4) {
+        console.log(this.responseText);
+        
+    }
+    
+   }
+  
+xhr.send()
+</script>
+</html>
