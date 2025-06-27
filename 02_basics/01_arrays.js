@@ -9,6 +9,7 @@ const myHeros =['shakitman ','naagraj']
  const myArr2 = new Array(1,2,3,4,)
 //  console.log(myArr2[1]);
  
+
 //  array metohds
 //1..
 // myArr.push(66) //values add
@@ -36,6 +37,24 @@ const num2= myArr.splice(1,3)
 //original array ko maniupluate krta hai
 console.log("C", myArr);
 console.log(num2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
